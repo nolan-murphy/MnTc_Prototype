@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MnTC Pathway Planner – Admin View</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="container nav-container">
+      <div class="logo">MnTC Pathway Planner</div>
+      <div class="nav-links">
+        <a href="index.html">Student View</a>
+        <a href="advisor.html">Advisor View</a>
+        <a href="admin.html" class="active">Admin View</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container main-content">
+
+    <section class="section">
+      <div class="section-header">
+        <h2>Administration</h2>
+        <p>Configure MnTC Goal Areas and course catalog (mock data).</p>
+      </div>
+
+      <div class="card">
+        <h3>Goal Area Configuration</h3>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Goal Area Name</th>
+              <th>Required Credits</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td><input type="text" class="input-inline" value="Communication"></td>
+              <td><input type="number" class="input-inline small" value="9"></td>
+              <td><button class="btn btn-sm">Save</button></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Critical Thinking</td>
+              <td>3</td>
+              <td><button class="btn btn-sm btn-outline">Edit</button></td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Natural Sciences</td>
+              <td>6</td>
+              <td><button class="btn btn-sm btn-outline">Edit</button></td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Math/Logical Reasoning</td>
+              <td>3</td>
+              <td><button class="btn btn-sm btn-outline">Edit</button></td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>History/Social Sciences</td>
+              <td>9</td>
+              <td><button class="btn btn-sm btn-outline">Edit</button></td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>Humanities/Fine Arts</td>
+              <td>9</td>
+              <td><button class="btn btn-sm btn-outline">Edit</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </section>
+
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <p>MnTC Pathway Planner Prototype &copy; 2025</p>
+    </div>
+  </footer>
+
+</body>
+</html>
